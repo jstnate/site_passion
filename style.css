@@ -31,3 +31,24 @@
     transition: 0.3s;
     cursor: pointer;
 }
+
+.main_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main_title img {
+    width: 300px;
+}
+
+.main_title div h1 {
+    font-size: 100px;
+    color: #f07d00;
+}
+
+.main_title div h2 {
+    font-size: 50px;
+    margin-left: 100px;
+}
