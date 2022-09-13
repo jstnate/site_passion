@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .main_title img {
@@ -51,4 +51,43 @@
 .main_title div h2 {
     font-size: 50px;
     margin-left: 100px;
+}
+
+#quoi {
+    margin-top: 150px;
+}
+
+.block {
+    width: 1200px;
+    margin: 0 auto 50px;
+    padding-top: 50px;
+}
+
+.block h3 {
+    color: #f07d00;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.block .accroche {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.block p {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.separation {
+    content: "";
+    background-color: #f07d00;
+    border: none;
+    border-radius: 10px;
+    width: 800px;
+    height: 5px;
+    margin: 0 auto;
 }
